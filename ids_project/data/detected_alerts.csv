@@ -1,0 +1,452 @@
+timestamp,source_ip,destination_ip,port,protocol,packet_count,duration,failed_attempts,label,connection_frequency,failed_attempts_by_ip,rule_triggered,anomaly_score,detection_method,severity
+2026-04-01 00:07:00,10.0.1.39,172.16.0.50,8080,TCP,44.0,11.946,1,normal,5,3,,-0.012466776990943562,machine_learning,LOW
+2026-04-01 00:08:00,10.0.0.86,172.16.0.34,123,UDP,33.0,0.725,0,normal,10,3,,-0.022828677289371324,machine_learning,LOW
+2026-04-01 00:18:00,203.0.113.21,172.16.0.13,21,TCP,464.0,0.92,11,attack,8,281,Access to restricted port; Repeated failed login attempts,-0.10635678495096412,machine_learning+rule_based,HIGH
+2026-04-01 00:24:00,10.0.1.74,172.16.0.6,3306,TCP,32.0,11.94,0,normal,7,2,Access to restricted port,,rule_based,LOW
+2026-04-01 00:26:00,10.0.0.170,172.16.0.39,3306,TCP,28.0,3.168,0,normal,7,0,Access to restricted port,,rule_based,LOW
+2026-04-01 00:27:00,10.0.1.91,172.16.0.76,3306,TCP,32.0,4.251,0,normal,10,1,Access to restricted port,,rule_based,LOW
+2026-04-01 00:45:00,10.0.1.153,172.16.0.33,80,ICMP,32.0,9.146,0,normal,7,2,,-0.002250083824249627,machine_learning,LOW
+2026-04-01 00:48:00,203.0.113.22,172.16.0.39,3389,TCP,518.0,0.624,49,attack,9,398,Access to restricted port; Repeated failed login attempts,-0.13033761967275614,machine_learning+rule_based,HIGH
+2026-04-01 00:49:00,10.0.1.73,172.16.0.12,80,ICMP,34.0,8.622,0,normal,10,2,,-0.01837109388321978,machine_learning,LOW
+2026-04-01 00:54:00,203.0.113.12,172.16.0.79,5900,UDP,1464.0,1.127,29,attack,9,377,Access to restricted port; Repeated failed login attempts,-0.1450958533351222,machine_learning+rule_based,HIGH
+2026-04-01 00:57:00,203.0.113.31,172.16.0.70,6667,TCP,1623.1199999999972,1.054,31,attack,8,257,Access to restricted port; Repeated failed login attempts,-0.14366024032253377,machine_learning+rule_based,HIGH
+2026-04-01 01:14:00,10.0.1.34,172.16.0.63,123,ICMP,27.0,4.131,1,normal,5,2,,-0.010668999070563956,machine_learning,LOW
+2026-04-01 01:17:00,203.0.113.19,172.16.0.37,23,TCP,1251.0,0.204,12,attack,5,185,Access to restricted port; Repeated failed login attempts,-0.09944023001883207,machine_learning+rule_based,HIGH
+2026-04-01 01:19:00,10.0.1.27,172.16.0.46,3306,UDP,34.0,8.612,0,normal,5,0,Access to restricted port,,rule_based,LOW
+2026-04-01 01:21:00,203.0.113.18,172.16.0.38,23,TCP,1369.0,1.044,39,attack,10,292,Access to restricted port; Repeated failed login attempts,-0.11505451014262047,machine_learning+rule_based,HIGH
+2026-04-01 01:29:00,203.0.113.13,172.16.0.29,23,TCP,1393.0,0.759,10,attack,10,306,Access to restricted port; Repeated failed login attempts,-0.10951421418235763,machine_learning+rule_based,HIGH
+2026-04-01 01:34:00,10.0.1.123,172.16.0.26,80,ICMP,26.0,0.38,0,normal,3,0,,-0.060382906728376096,machine_learning,LOW
+2026-04-01 01:35:00,10.0.0.122,172.16.0.15,3306,TCP,36.0,0.576,0,normal,8,0,Access to restricted port,,rule_based,LOW
+2026-04-01 01:38:00,10.0.1.13,172.16.0.78,8080,UDP,32.0,4.065,0,normal,8,1,,-0.01080363915403737,machine_learning,LOW
+2026-04-01 01:39:00,203.0.113.23,172.16.0.32,3389,UDP,917.0,1.101,56,attack,8,286,Access to restricted port; Repeated failed login attempts,-0.11963813908148635,machine_learning+rule_based,HIGH
+2026-04-01 01:41:00,203.0.113.32,172.16.0.18,3389,TCP,780.0,0.562,21,attack,11,320,Access to restricted port; Repeated failed login attempts,-0.1301309141478042,machine_learning+rule_based,HIGH
+2026-04-01 01:48:00,203.0.113.26,172.16.0.43,4444,TCP,1623.1199999999972,0.195,56,attack,12,451,Access to restricted port; Repeated failed login attempts,-0.14356275542393848,machine_learning+rule_based,HIGH
+2026-04-01 01:58:00,10.0.0.104,172.16.0.53,443,TCP,38.0,18.947,0,normal,13,1,,-0.04600169746624727,machine_learning,LOW
+2026-04-01 01:59:00,10.0.0.49,172.16.0.76,3306,TCP,31.0,10.939,0,normal,6,1,Access to restricted port,,rule_based,LOW
+2026-04-01 02:03:00,10.0.0.199,172.16.0.74,8080,TCP,31.0,13.135,0,normal,2,0,,-0.030480560448321148,machine_learning,LOW
+2026-04-01 02:04:00,203.0.113.22,172.16.0.74,25,TCP,1551.0,0.614,54,attack,9,398,Access to restricted port; Repeated failed login attempts,-0.12334766326677149,machine_learning+rule_based,HIGH
+2026-04-01 02:09:00,10.0.1.12,172.16.0.5,80,ICMP,37.0,4.118,0,normal,10,1,,-0.04562084007158973,machine_learning,LOW
+2026-04-01 02:23:00,10.0.0.173,172.16.0.38,443,UDP,37.0,3.771,1,normal,10,2,,-0.0018455657248662716,machine_learning,LOW
+2026-04-01 02:35:00,10.0.1.24,172.16.0.46,3306,TCP,39.0,3.433,0,normal,6,0,Access to restricted port,,rule_based,LOW
+2026-04-01 02:36:00,203.0.113.33,172.16.0.6,5900,TCP,1513.0,0.983,56,attack,7,200,Access to restricted port; Repeated failed login attempts,-0.1260046859729752,machine_learning+rule_based,HIGH
+2026-04-01 02:45:00,10.0.1.88,172.16.0.44,443,UDP,51.0,0.963,0,normal,3,0,,-0.0039034637686213847,machine_learning,LOW
+2026-04-01 02:56:00,10.0.1.47,172.16.0.78,80,TCP,43.0,6.261,2,normal,7,2,,-0.00022431583212412232,machine_learning,LOW
+2026-04-01 03:09:00,10.0.0.128,172.16.0.79,80,TCP,44.0,2.534,1,normal,12,2,,-0.021170870637946537,machine_learning,LOW
+2026-04-01 03:11:00,203.0.113.27,172.16.0.49,23,UDP,547.0,0.923,42,attack,4,203,Access to restricted port; Repeated failed login attempts,-0.11894048251006029,machine_learning+rule_based,HIGH
+2026-04-01 03:29:00,203.0.113.16,172.16.0.71,23,TCP,841.0,0.446,23,attack,5,207,Access to restricted port; Repeated failed login attempts,-0.10316572254803857,machine_learning+rule_based,HIGH
+2026-04-01 03:32:00,10.0.1.77,172.16.0.76,80,ICMP,43.0,1.954,0,normal,3,1,,-0.007427136855789884,machine_learning,LOW
+2026-04-01 03:34:00,203.0.113.30,172.16.0.42,5900,TCP,531.0,0.778,44,attack,9,280,Access to restricted port; Repeated failed login attempts,-0.12513617213177675,machine_learning+rule_based,HIGH
+2026-04-01 03:36:00,203.0.113.30,172.16.0.36,6667,TCP,1623.1199999999972,0.79,9,attack,9,280,Access to restricted port; Repeated failed login attempts,-0.12868415192154903,machine_learning+rule_based,HIGH
+2026-04-01 03:43:00,10.0.0.86,172.16.0.31,80,TCP,35.0,16.168,0,normal,10,3,,-0.002354914937389707,machine_learning,LOW
+2026-04-01 04:00:00,203.0.113.29,172.16.0.16,21,TCP,441.0,0.355,16,attack,11,432,Access to restricted port; Repeated failed login attempts,-0.13367554277589344,machine_learning+rule_based,HIGH
+2026-04-01 04:09:00,203.0.113.17,172.16.0.78,5900,UDP,1623.1199999999972,0.229,32,attack,8,245,Access to restricted port; Repeated failed login attempts,-0.15114377452763572,machine_learning+rule_based,HIGH
+2026-04-01 04:21:00,10.0.0.73,172.16.0.36,3306,TCP,37.0,2.959,1,normal,3,1,Access to restricted port,,rule_based,LOW
+2026-04-01 04:23:00,10.0.1.134,172.16.0.4,80,UDP,32.0,16.149,0,normal,9,1,,-0.007166346578759031,machine_learning,LOW
+2026-04-01 04:27:00,203.0.113.21,172.16.0.80,3389,UDP,303.0,0.933,54,attack,8,281,Access to restricted port; Repeated failed login attempts,-0.13697832167625312,machine_learning+rule_based,HIGH
+2026-04-01 04:30:00,10.0.0.125,172.16.0.54,53,ICMP,44.0,7.398,0,normal,7,4,,-0.00244013908545071,machine_learning,LOW
+2026-04-01 04:31:00,203.0.113.26,172.16.0.5,4444,UDP,1600.0,0.17298,41,attack,12,451,Access to restricted port; Repeated failed login attempts,-0.15525712877843212,machine_learning+rule_based,HIGH
+2026-04-01 04:36:00,203.0.113.22,172.16.0.43,4444,TCP,1040.0,0.269,56,attack,9,398,Access to restricted port; Repeated failed login attempts,-0.12302269057476622,machine_learning+rule_based,HIGH
+2026-04-01 04:40:00,10.0.0.117,172.16.0.26,53,ICMP,36.0,0.478,0,normal,5,2,,-0.033460367187469364,machine_learning,LOW
+2026-04-01 04:52:00,10.0.1.146,172.16.0.59,443,UDP,35.0,0.405,0,normal,8,2,,-0.020684151311056165,machine_learning,LOW
+2026-04-01 04:53:00,203.0.113.31,172.16.0.44,21,TCP,1623.1199999999972,1.056,34,attack,8,257,Access to restricted port; Repeated failed login attempts,-0.10568409975204562,machine_learning+rule_based,HIGH
+2026-04-01 04:55:00,203.0.113.14,172.16.0.74,25,TCP,684.0,1.19,28,attack,8,309,Access to restricted port; Repeated failed login attempts,-0.11074926680264163,machine_learning+rule_based,HIGH
+2026-04-01 04:56:00,10.0.1.103,172.16.0.70,443,ICMP,34.0,4.264,1,normal,11,1,,-0.05371930664097069,machine_learning,LOW
+2026-04-01 05:00:00,203.0.113.34,172.16.0.64,5900,TCP,1623.1199999999972,0.17298,56,attack,9,286,Access to restricted port; Repeated failed login attempts,-0.13746995768942982,machine_learning+rule_based,HIGH
+2026-04-01 05:02:00,10.0.0.6,172.16.0.80,53,UDP,31.0,12.218,0,normal,3,1,,-0.007747147758197959,machine_learning,LOW
+2026-04-01 05:06:00,10.0.0.128,172.16.0.24,80,ICMP,39.0,2.473,0,normal,12,2,,-0.0656705671755875,machine_learning,LOW
+2026-04-01 05:10:00,203.0.113.34,172.16.0.42,3389,TCP,704.0,0.17298,10,attack,9,286,Access to restricted port; Repeated failed login attempts,-0.11469292385144092,machine_learning+rule_based,HIGH
+2026-04-01 05:19:00,10.0.1.69,172.16.0.57,3306,TCP,32.0,7.778,0,normal,7,1,Access to restricted port,,rule_based,LOW
+2026-04-01 05:30:00,10.0.0.231,172.16.0.74,80,UDP,40.0,12.62,3,normal,6,3,,-0.011301603876110233,machine_learning,LOW
+2026-04-01 05:38:00,10.0.0.86,172.16.0.19,80,UDP,32.0,4.782,0,normal,10,3,,-0.012067455634786284,machine_learning,LOW
+2026-04-01 05:42:00,203.0.113.27,172.16.0.62,25,UDP,1318.0,0.184,56,attack,4,203,Access to restricted port; Repeated failed login attempts,-0.117889834465154,machine_learning+rule_based,HIGH
+2026-04-01 05:44:00,203.0.113.30,172.16.0.38,3389,TCP,1335.0,0.279,8,attack,9,280,Access to restricted port; Repeated failed login attempts,-0.11994962728074121,machine_learning+rule_based,HIGH
+2026-04-01 05:55:00,10.0.1.162,172.16.0.8,8080,UDP,45.0,7.168,0,normal,6,1,,-0.00709239538449824,machine_learning,LOW
+2026-04-01 06:04:00,203.0.113.18,172.16.0.8,4444,UDP,886.0,0.41,34,attack,10,292,Access to restricted port; Repeated failed login attempts,-0.15386193366310574,machine_learning+rule_based,HIGH
+2026-04-01 06:05:00,203.0.113.10,172.16.0.4,6667,ICMP,393.0,0.3,42,attack,9,306,Access to restricted port; Repeated failed login attempts,-0.16282750083426012,machine_learning+rule_based,HIGH
+2026-04-01 06:09:00,203.0.113.31,172.16.0.18,5900,TCP,267.0,0.445,56,attack,8,257,Access to restricted port; Repeated failed login attempts,-0.12677467428316558,machine_learning+rule_based,HIGH
+2026-04-01 06:10:00,203.0.113.19,172.16.0.24,23,TCP,340.0,0.568,53,attack,5,185,Access to restricted port; Repeated failed login attempts,-0.09004385805078796,machine_learning+rule_based,HIGH
+2026-04-01 06:24:00,203.0.113.15,172.16.0.30,4444,TCP,1231.0,0.692,43,attack,11,431,Access to restricted port; Repeated failed login attempts,-0.13238624974398938,machine_learning+rule_based,HIGH
+2026-04-01 06:29:00,203.0.113.24,172.16.0.17,6667,UDP,431.0,0.976,48,attack,10,423,Access to restricted port; Repeated failed login attempts,-0.14638105773087273,machine_learning+rule_based,HIGH
+2026-04-01 06:46:00,10.0.0.183,172.16.0.51,8080,TCP,48.0,3.765,2,normal,10,4,,-0.041613085917939885,machine_learning,LOW
+2026-04-01 06:48:00,10.0.1.138,172.16.0.12,3306,TCP,34.0,0.818,0,normal,5,1,Access to restricted port,,rule_based,LOW
+2026-04-01 06:52:00,203.0.113.15,172.16.0.39,23,TCP,392.0,0.983,12,attack,11,431,Access to restricted port; Repeated failed login attempts,-0.12057042418051256,machine_learning+rule_based,HIGH
+2026-04-01 07:06:00,203.0.113.20,172.16.0.50,25,ICMP,1517.0,0.639,50,attack,6,236,Access to restricted port; Repeated failed login attempts,-0.13315832774327196,machine_learning+rule_based,HIGH
+2026-04-01 07:13:00,203.0.113.12,172.16.0.36,23,TCP,1315.0,0.809,51,attack,9,377,Access to restricted port; Repeated failed login attempts,-0.08788966841160606,machine_learning+rule_based,HIGH
+2026-04-01 07:15:00,203.0.113.13,172.16.0.20,4444,TCP,1487.0,1.124,42,attack,10,306,Access to restricted port; Repeated failed login attempts,-0.1155344761677084,machine_learning+rule_based,HIGH
+2026-04-01 07:16:00,10.0.0.239,172.16.0.62,80,UDP,44.0,16.358,0,normal,5,3,,-0.011182662358847018,machine_learning,LOW
+2026-04-01 07:21:00,10.0.0.128,172.16.0.75,80,UDP,49.0,1.168,0,normal,12,2,,-0.051004626224561256,machine_learning,LOW
+2026-04-01 07:24:00,10.0.0.215,172.16.0.66,80,ICMP,37.0,0.83,0,normal,4,0,,-0.0007297517970696887,machine_learning,LOW
+2026-04-01 07:33:00,10.0.0.12,172.16.0.36,3306,TCP,37.0,4.253,0,normal,4,0,Access to restricted port,,rule_based,LOW
+2026-04-01 07:38:00,203.0.113.15,172.16.0.42,3389,TCP,312.0,0.767,52,attack,11,431,Access to restricted port; Repeated failed login attempts,-0.13144892486559945,machine_learning+rule_based,HIGH
+2026-04-01 07:39:00,10.0.0.46,172.16.0.39,3306,TCP,28.0,5.057,0,normal,9,2,Access to restricted port,,rule_based,LOW
+2026-04-01 07:40:00,10.0.1.50,172.16.0.74,443,UDP,37.0,8.443,1,normal,5,3,,-0.01758406888044195,machine_learning,LOW
+2026-04-01 07:42:00,203.0.113.15,172.16.0.78,6667,TCP,1623.1199999999972,0.85,42,attack,11,431,Access to restricted port; Repeated failed login attempts,-0.15272842638485107,machine_learning+rule_based,HIGH
+2026-04-01 07:44:00,203.0.113.33,172.16.0.59,6667,TCP,450.0,0.186,15,attack,7,200,Access to restricted port; Repeated failed login attempts,-0.11759303861075177,machine_learning+rule_based,HIGH
+2026-04-01 07:45:00,10.0.1.151,172.16.0.48,123,UDP,32.0,0.756,0,normal,1,0,,-0.03076689643429975,machine_learning,LOW
+2026-04-01 07:47:00,203.0.113.32,172.16.0.20,4444,TCP,1171.0,0.31,44,attack,11,320,Access to restricted port; Repeated failed login attempts,-0.1300469036597477,machine_learning+rule_based,HIGH
+2026-04-01 07:54:00,10.0.1.12,172.16.0.3,80,UDP,35.0,1.942,1,normal,10,1,,-0.051376355548143904,machine_learning,LOW
+2026-04-01 08:00:00,203.0.113.15,172.16.0.58,3389,TCP,508.0,0.602,56,attack,11,431,Access to restricted port; Repeated failed login attempts,-0.13866112433956124,machine_learning+rule_based,HIGH
+2026-04-01 08:19:00,203.0.113.12,172.16.0.54,4444,TCP,1420.0,0.17298,46,attack,9,377,Access to restricted port; Repeated failed login attempts,-0.10859755116746106,machine_learning+rule_based,HIGH
+2026-04-01 08:23:00,203.0.113.32,172.16.0.77,6667,TCP,1383.0,0.837,38,attack,11,320,Access to restricted port; Repeated failed login attempts,-0.1417259844999933,machine_learning+rule_based,HIGH
+2026-04-01 08:24:00,203.0.113.26,172.16.0.57,6667,UDP,1058.0,0.713,15,attack,12,451,Access to restricted port; Repeated failed login attempts,-0.15311398321896774,machine_learning+rule_based,HIGH
+2026-04-01 08:35:00,10.0.0.46,172.16.0.38,443,ICMP,40.0,1.261,0,normal,9,2,,-0.029938507495600564,machine_learning,LOW
+2026-04-01 08:37:00,203.0.113.11,172.16.0.19,5900,TCP,742.0,0.768,53,attack,6,244,Access to restricted port; Repeated failed login attempts,-0.12816048106601408,machine_learning+rule_based,HIGH
+2026-04-01 08:47:00,203.0.113.14,172.16.0.61,25,TCP,1005.0,0.391,56,attack,8,309,Access to restricted port; Repeated failed login attempts,-0.09962495725384946,machine_learning+rule_based,HIGH
+2026-04-01 08:48:00,10.0.1.130,172.16.0.19,443,ICMP,38.0,1.595,0,normal,8,0,,-0.011774599653382567,machine_learning,LOW
+2026-04-01 08:54:00,10.0.0.243,172.16.0.9,8080,UDP,33.0,2.505,0,normal,3,0,,-0.0027863902264299023,machine_learning,LOW
+2026-04-01 08:56:00,10.0.0.192,172.16.0.65,443,TCP,36.0,6.303,1,normal,11,4,,-0.009964937865997947,machine_learning,LOW
+2026-04-01 08:59:00,203.0.113.13,172.16.0.17,3389,TCP,1597.0,0.826,21,attack,10,306,Access to restricted port; Repeated failed login attempts,-0.1277895343080705,machine_learning+rule_based,HIGH
+2026-04-01 09:01:00,10.0.0.25,172.16.0.25,3306,TCP,45.0,1.558,0,normal,7,0,Access to restricted port,,rule_based,LOW
+2026-04-01 09:03:00,203.0.113.29,172.16.0.43,4444,TCP,657.0,0.253,42,attack,11,432,Access to restricted port; Repeated failed login attempts,-0.1390576184948894,machine_learning+rule_based,HIGH
+2026-04-01 09:05:00,10.0.0.24,172.16.0.71,8080,TCP,38.0,20.154269999999993,0,normal,5,1,,-0.005792358939317732,machine_learning,LOW
+2026-04-01 09:08:00,10.0.0.218,172.16.0.15,3306,TCP,34.0,9.189,0,normal,8,0,Access to restricted port,,rule_based,LOW
+2026-04-01 09:13:00,203.0.113.15,172.16.0.30,3389,TCP,494.0,1.012,50,attack,11,431,Access to restricted port; Repeated failed login attempts,-0.13059144695545233,machine_learning+rule_based,HIGH
+2026-04-01 09:35:00,203.0.113.15,172.16.0.61,21,TCP,873.0,1.093,51,attack,11,431,Access to restricted port; Repeated failed login attempts,-0.12396645213441382,machine_learning+rule_based,HIGH
+2026-04-01 09:36:00,10.0.1.134,172.16.0.10,80,ICMP,49.0,4.659,0,normal,9,1,,-0.029931369551426834,machine_learning,LOW
+2026-04-01 09:45:00,10.0.1.134,172.16.0.30,80,ICMP,34.0,6.678,0,normal,9,1,,-0.003590278862963703,machine_learning,LOW
+2026-04-01 09:49:00,10.0.1.100,172.16.0.38,3306,TCP,28.0,11.24,0,normal,5,1,Access to restricted port,,rule_based,LOW
+2026-04-01 09:51:00,10.0.1.125,172.16.0.32,3306,UDP,41.0,10.761,1,normal,7,1,Access to restricted port,-0.02651009614072808,machine_learning+rule_based,LOW
+2026-04-01 10:00:00,10.0.1.5,172.16.0.30,8080,TCP,46.0,2.539,1,normal,7,4,,-0.017213477353004936,machine_learning,LOW
+2026-04-01 10:02:00,10.0.1.56,172.16.0.3,8080,UDP,42.0,5.421,0,normal,12,1,,-0.037560686461391435,machine_learning,LOW
+2026-04-01 10:14:00,203.0.113.17,172.16.0.30,21,TCP,405.0,0.383,12,attack,8,245,Access to restricted port; Repeated failed login attempts,-0.10146406210957726,machine_learning+rule_based,HIGH
+2026-04-01 10:16:00,203.0.113.14,172.16.0.51,21,TCP,1540.0,0.17298,50,attack,8,309,Access to restricted port; Repeated failed login attempts,-0.09464411234729275,machine_learning+rule_based,HIGH
+2026-04-01 10:18:00,203.0.113.10,172.16.0.3,5900,TCP,711.0,0.17298,23,attack,9,306,Access to restricted port; Repeated failed login attempts,-0.1331639790634498,machine_learning+rule_based,HIGH
+2026-04-01 10:29:00,10.0.0.155,172.16.0.64,8080,TCP,32.0,14.575,1,normal,7,3,,-0.000595556605355374,machine_learning,LOW
+2026-04-01 10:31:00,203.0.113.33,172.16.0.38,3389,TCP,1465.0,0.896,20,attack,7,200,Access to restricted port; Repeated failed login attempts,-0.11059948964796018,machine_learning+rule_based,HIGH
+2026-04-01 10:57:00,10.0.1.12,172.16.0.80,53,UDP,38.0,8.744,0,normal,10,1,,-0.0006806932118391673,machine_learning,LOW
+2026-04-01 10:58:00,203.0.113.23,172.16.0.54,21,TCP,1091.0,0.913,9,attack,8,286,Access to restricted port; Repeated failed login attempts,-0.10025566649755269,machine_learning+rule_based,HIGH
+2026-04-01 11:01:00,203.0.113.30,172.16.0.72,4444,TCP,913.0,0.536,43,attack,9,280,Access to restricted port; Repeated failed login attempts,-0.1380394709588587,machine_learning+rule_based,HIGH
+2026-04-01 11:08:00,203.0.113.21,172.16.0.66,23,TCP,1034.0,1.001,28,attack,8,281,Access to restricted port; Repeated failed login attempts,-0.1025483371738719,machine_learning+rule_based,HIGH
+2026-04-01 11:15:00,203.0.113.31,172.16.0.46,3389,UDP,372.0,0.17298,27,attack,8,257,Access to restricted port; Repeated failed login attempts,-0.14074921314943178,machine_learning+rule_based,HIGH
+2026-04-01 11:19:00,203.0.113.21,172.16.0.15,23,TCP,1623.1199999999972,0.461,47,attack,8,281,Access to restricted port; Repeated failed login attempts,-0.10091996160791195,machine_learning+rule_based,HIGH
+2026-04-01 11:20:00,10.0.1.50,172.16.0.19,8080,UDP,41.0,5.474,0,normal,5,3,,-0.021486812485974394,machine_learning,LOW
+2026-04-01 11:23:00,203.0.113.28,172.16.0.6,21,TCP,559.0,0.306,32,attack,13,422,Access to restricted port; Repeated failed login attempts,-0.1485642946435155,machine_learning+rule_based,HIGH
+2026-04-01 11:31:00,203.0.113.34,172.16.0.55,3389,TCP,638.0,0.813,42,attack,9,286,Access to restricted port; Repeated failed login attempts,-0.11589168363997215,machine_learning+rule_based,HIGH
+2026-04-01 11:39:00,10.0.0.41,172.16.0.22,8080,TCP,28.0,1.031,1,normal,11,1,,-0.00821582025116796,machine_learning,LOW
+2026-04-01 11:41:00,10.0.1.5,172.16.0.74,3306,TCP,32.0,6.863,0,normal,7,4,Access to restricted port,,rule_based,LOW
+2026-04-01 11:42:00,10.0.0.72,172.16.0.62,3306,TCP,34.0,6.253,0,normal,4,1,Access to restricted port,,rule_based,LOW
+2026-04-01 11:43:00,203.0.113.13,172.16.0.13,25,UDP,434.0,0.965,11,attack,10,306,Access to restricted port; Repeated failed login attempts,-0.12133998539943391,machine_learning+rule_based,HIGH
+2026-04-01 11:44:00,10.0.0.56,172.16.0.25,3306,TCP,38.0,8.885,0,normal,5,1,Access to restricted port,,rule_based,LOW
+2026-04-01 11:46:00,10.0.0.5,172.16.0.80,22,UDP,40.0,6.392,2,normal,7,4,,-0.028936637646536423,machine_learning,LOW
+2026-04-01 11:48:00,203.0.113.23,172.16.0.35,3389,TCP,1623.1199999999972,0.274,34,attack,8,286,Access to restricted port; Repeated failed login attempts,-0.10957598500324872,machine_learning+rule_based,HIGH
+2026-04-01 11:49:00,203.0.113.26,172.16.0.20,3389,TCP,416.0,0.381,12,attack,12,451,Access to restricted port; Repeated failed login attempts,-0.1439543570609555,machine_learning+rule_based,HIGH
+2026-04-01 11:51:00,203.0.113.31,172.16.0.23,23,TCP,1587.0,0.314,28,attack,8,257,Access to restricted port; Repeated failed login attempts,-0.11755957156184382,machine_learning+rule_based,HIGH
+2026-04-01 11:52:00,10.0.1.51,172.16.0.29,443,ICMP,45.0,2.573,0,normal,6,0,,-0.00013214169546094112,machine_learning,LOW
+2026-04-01 12:10:00,203.0.113.32,172.16.0.68,21,TCP,1282.0,0.93,17,attack,11,320,Access to restricted port; Repeated failed login attempts,-0.12303258774266757,machine_learning+rule_based,HIGH
+2026-04-01 12:20:00,203.0.113.26,172.16.0.18,3389,UDP,745.0,0.209,53,attack,12,451,Access to restricted port; Repeated failed login attempts,-0.1525992704153898,machine_learning+rule_based,HIGH
+2026-04-01 12:22:00,10.0.1.12,172.16.0.72,3306,UDP,23.0,9.08,0,normal,10,1,Access to restricted port,-0.02560869234731833,machine_learning+rule_based,LOW
+2026-04-01 12:29:00,10.0.0.68,172.16.0.33,80,ICMP,39.0,3.552,0,normal,3,1,,-0.002797281792487616,machine_learning,LOW
+2026-04-01 12:35:00,203.0.113.18,172.16.0.16,6667,TCP,1623.1199999999972,0.17298,18,attack,10,292,Access to restricted port; Repeated failed login attempts,-0.1428554946336975,machine_learning+rule_based,HIGH
+2026-04-01 12:50:00,10.0.1.20,172.16.0.15,8080,UDP,36.0,7.133,0,normal,11,1,,-0.008843543225428019,machine_learning,LOW
+2026-04-01 13:00:00,10.0.1.114,172.16.0.8,443,ICMP,28.0,2.587,0,normal,4,2,,-0.02428701484171103,machine_learning,LOW
+2026-04-01 13:01:00,10.0.1.13,172.16.0.61,22,ICMP,39.0,14.042,0,normal,8,1,,-0.020525320957036186,machine_learning,LOW
+2026-04-01 13:05:00,203.0.113.18,172.16.0.38,25,UDP,1277.0,1.125,38,attack,10,292,Access to restricted port; Repeated failed login attempts,-0.13540299117960486,machine_learning+rule_based,HIGH
+2026-04-01 13:11:00,10.0.0.192,172.16.0.38,443,UDP,31.0,6.084,0,normal,11,4,,-0.001746129045958389,machine_learning,LOW
+2026-04-01 13:12:00,203.0.113.14,172.16.0.20,5900,TCP,820.0,0.17298,20,attack,8,309,Access to restricted port; Repeated failed login attempts,-0.11983278183869606,machine_learning+rule_based,HIGH
+2026-04-01 13:13:00,203.0.113.28,172.16.0.24,5900,TCP,418.0,0.515,23,attack,13,422,Access to restricted port; Repeated failed login attempts,-0.1465364045791271,machine_learning+rule_based,HIGH
+2026-04-01 13:15:00,10.0.0.125,172.16.0.64,8080,TCP,30.0,11.626,2,normal,7,4,,-0.05189350375126767,machine_learning,LOW
+2026-04-01 13:23:00,203.0.113.31,172.16.0.23,23,TCP,589.0,0.761,22,attack,8,257,Access to restricted port; Repeated failed login attempts,-0.10879619135409024,machine_learning+rule_based,HIGH
+2026-04-01 13:31:00,203.0.113.17,172.16.0.33,21,TCP,1367.0,1.038,28,attack,8,245,Access to restricted port; Repeated failed login attempts,-0.09851355746229529,machine_learning+rule_based,HIGH
+2026-04-01 13:44:00,203.0.113.18,172.16.0.36,5900,TCP,1623.1199999999972,0.17298,29,attack,10,292,Access to restricted port; Repeated failed login attempts,-0.1377601153531185,machine_learning+rule_based,HIGH
+2026-04-01 13:47:00,203.0.113.13,172.16.0.18,3389,TCP,990.0,1.122,12,attack,10,306,Access to restricted port; Repeated failed login attempts,-0.12517104052438033,machine_learning+rule_based,HIGH
+2026-04-01 13:49:00,10.0.0.14,172.16.0.74,80,UDP,35.0,0.728,1,normal,7,4,,-0.027290170528821323,machine_learning,LOW
+2026-04-01 13:58:00,203.0.113.21,172.16.0.69,6667,TCP,678.0,0.17298,8,attack,8,281,Access to restricted port; Repeated failed login attempts,-0.14604794415636346,machine_learning+rule_based,HIGH
+2026-04-01 14:10:00,10.0.1.157,172.16.0.14,22,ICMP,33.0,15.571,0,normal,7,2,,-0.022546501514628337,machine_learning,LOW
+2026-04-01 14:15:00,203.0.113.27,172.16.0.36,5900,UDP,1167.0,1.13,56,attack,4,203,Access to restricted port; Repeated failed login attempts,-0.12948881475724716,machine_learning+rule_based,HIGH
+2026-04-01 14:29:00,203.0.113.23,172.16.0.11,4444,TCP,920.0,0.583,14,attack,8,286,Access to restricted port; Repeated failed login attempts,-0.10970221925857637,machine_learning+rule_based,HIGH
+2026-04-01 14:30:00,203.0.113.29,172.16.0.79,25,TCP,1217.0,0.17298,50,attack,11,432,Access to restricted port; Repeated failed login attempts,-0.13947687681751764,machine_learning+rule_based,HIGH
+2026-04-01 14:37:00,10.0.1.59,172.16.0.48,3306,TCP,30.0,10.744,0,normal,10,0,Access to restricted port,,rule_based,LOW
+2026-04-01 14:42:00,10.0.0.190,172.16.0.77,3306,UDP,47.0,8.672,0,normal,13,2,Access to restricted port,-0.03252576097927551,machine_learning+rule_based,LOW
+2026-04-01 14:43:00,203.0.113.29,172.16.0.74,6667,ICMP,834.0,0.17298,56,attack,11,432,Access to restricted port; Repeated failed login attempts,-0.18718259589035247,machine_learning+rule_based,HIGH
+2026-04-01 14:53:00,10.0.1.157,172.16.0.16,22,UDP,27.0,0.426,2,normal,7,2,,-0.055663133594116676,machine_learning,LOW
+2026-04-01 14:55:00,10.0.1.3,172.16.0.64,3306,UDP,40.0,7.229,0,normal,4,0,Access to restricted port,,rule_based,LOW
+2026-04-01 15:03:00,10.0.1.117,172.16.0.79,3306,UDP,43.0,2.971,0,normal,3,0,Access to restricted port,-0.011727342398429985,machine_learning+rule_based,LOW
+2026-04-01 15:10:00,10.0.1.69,172.16.0.7,443,ICMP,26.0,5.787,1,normal,7,1,,-0.017791126642154542,machine_learning,LOW
+2026-04-01 15:16:00,203.0.113.18,172.16.0.50,3389,UDP,1522.0,1.179,30,attack,10,292,Access to restricted port; Repeated failed login attempts,-0.14205962648312165,machine_learning+rule_based,HIGH
+2026-04-01 15:17:00,203.0.113.22,172.16.0.71,23,UDP,1623.1199999999972,0.415,38,attack,9,398,Access to restricted port; Repeated failed login attempts,-0.13972089042085778,machine_learning+rule_based,HIGH
+2026-04-01 15:28:00,10.0.0.177,172.16.0.63,3306,UDP,39.0,9.202,0,normal,11,1,Access to restricted port,,rule_based,LOW
+2026-04-01 15:44:00,203.0.113.30,172.16.0.74,3389,TCP,1368.0,0.305,38,attack,9,280,Access to restricted port; Repeated failed login attempts,-0.13924101116803522,machine_learning+rule_based,HIGH
+2026-04-01 15:57:00,203.0.113.11,172.16.0.4,25,TCP,896.0,0.86,49,attack,6,244,Access to restricted port; Repeated failed login attempts,-0.12896467668019795,machine_learning+rule_based,HIGH
+2026-04-01 16:13:00,10.0.0.200,172.16.0.71,80,ICMP,31.0,8.978,0,normal,7,0,,-0.008271663106258598,machine_learning,LOW
+2026-04-01 16:15:00,10.0.0.96,172.16.0.19,80,TCP,37.0,0.285,0,normal,2,0,,-0.02730893185253591,machine_learning,LOW
+2026-04-01 16:17:00,10.0.0.241,172.16.0.43,3306,TCP,39.0,12.663,0,normal,9,0,Access to restricted port,,rule_based,LOW
+2026-04-01 16:26:00,10.0.1.5,172.16.0.28,443,TCP,37.0,0.957,2,normal,7,4,,-0.00882470697787352,machine_learning,LOW
+2026-04-01 16:29:00,203.0.113.32,172.16.0.58,21,TCP,1352.0,1.019,14,attack,11,320,Access to restricted port; Repeated failed login attempts,-0.12054795462066159,machine_learning+rule_based,HIGH
+2026-04-01 16:38:00,10.0.1.149,172.16.0.11,80,UDP,32.0,2.344,1,normal,9,3,,-0.0010228311797848555,machine_learning,LOW
+2026-04-01 16:45:00,203.0.113.28,172.16.0.72,6667,TCP,763.0,0.347,40,attack,13,422,Access to restricted port; Repeated failed login attempts,-0.162093019267747,machine_learning+rule_based,HIGH
+2026-04-01 16:54:00,10.0.0.219,172.16.0.22,3306,TCP,34.0,8.452,0,normal,3,0,Access to restricted port,,rule_based,LOW
+2026-04-01 16:55:00,203.0.113.20,172.16.0.78,23,TCP,808.0,0.321,55,attack,6,236,Access to restricted port; Repeated failed login attempts,-0.1245399747211029,machine_learning+rule_based,HIGH
+2026-04-01 16:59:00,10.0.0.50,172.16.0.74,443,UDP,30.0,4.965,1,normal,4,2,,-0.006685936974239914,machine_learning,LOW
+2026-04-01 17:00:00,10.0.0.25,172.16.0.67,80,ICMP,32.0,12.698,0,normal,7,0,,-0.02686037410873865,machine_learning,LOW
+2026-04-01 17:02:00,10.0.1.110,172.16.0.67,53,TCP,40.0,16.418,1,normal,2,1,,-0.017253978213466747,machine_learning,LOW
+2026-04-01 17:14:00,10.0.0.29,172.16.0.8,443,ICMP,36.0,0.392,0,normal,5,0,,-0.03277699644491261,machine_learning,LOW
+2026-04-01 17:26:00,203.0.113.19,172.16.0.34,25,TCP,1623.1199999999972,0.834,47,attack,5,185,Access to restricted port; Repeated failed login attempts,-0.09500067747251983,machine_learning+rule_based,HIGH
+2026-04-01 17:37:00,203.0.113.10,172.16.0.29,3389,TCP,1466.0,1.017,14,attack,9,306,Access to restricted port; Repeated failed login attempts,-0.12497802782857126,machine_learning+rule_based,HIGH
+2026-04-01 17:42:00,10.0.0.62,172.16.0.35,3306,TCP,34.0,0.456,0,normal,6,0,Access to restricted port,,rule_based,LOW
+2026-04-01 17:53:00,203.0.113.18,172.16.0.28,23,TCP,1495.0,0.25,38,attack,10,292,Access to restricted port; Repeated failed login attempts,-0.127836342065899,machine_learning+rule_based,HIGH
+2026-04-01 18:01:00,203.0.113.21,172.16.0.62,4444,TCP,693.0,0.17298,23,attack,8,281,Access to restricted port; Repeated failed login attempts,-0.13031717694805478,machine_learning+rule_based,HIGH
+2026-04-01 18:04:00,10.0.0.86,172.16.0.61,3306,TCP,34.0,1.986,1,normal,10,3,Access to restricted port,-0.02174290300962123,machine_learning+rule_based,LOW
+2026-04-01 18:08:00,203.0.113.33,172.16.0.53,21,TCP,1611.0,1.113,43,attack,7,200,Access to restricted port; Repeated failed login attempts,-0.1068252007894186,machine_learning+rule_based,HIGH
+2026-04-01 18:11:00,203.0.113.12,172.16.0.25,23,TCP,1388.0,0.17298,56,attack,9,377,Access to restricted port; Repeated failed login attempts,-0.09696049505508342,machine_learning+rule_based,HIGH
+2026-04-01 18:14:00,10.0.0.139,172.16.0.21,22,ICMP,23.0,2.056,0,normal,5,1,,-0.0004908681528732473,machine_learning,LOW
+2026-04-01 18:25:00,10.0.0.77,172.16.0.12,22,ICMP,31.0,4.785,0,normal,7,2,,-0.0018459677032113264,machine_learning,LOW
+2026-04-01 18:26:00,10.0.0.104,172.16.0.27,53,ICMP,40.0,2.771,0,normal,13,1,,-0.03976571822273722,machine_learning,LOW
+2026-04-01 18:28:00,203.0.113.17,172.16.0.50,4444,TCP,1218.0,0.331,55,attack,8,245,Access to restricted port; Repeated failed login attempts,-0.11732558221502332,machine_learning+rule_based,HIGH
+2026-04-01 18:29:00,203.0.113.32,172.16.0.55,3389,TCP,973.0,0.921,42,attack,11,320,Access to restricted port; Repeated failed login attempts,-0.13064339068308461,machine_learning+rule_based,HIGH
+2026-04-01 18:30:00,203.0.113.11,172.16.0.46,21,TCP,968.0,0.226,26,attack,6,244,Access to restricted port; Repeated failed login attempts,-0.11533175808054263,machine_learning+rule_based,HIGH
+2026-04-01 18:32:00,203.0.113.19,172.16.0.50,25,TCP,1312.0,0.24,17,attack,5,185,Access to restricted port; Repeated failed login attempts,-0.09802577114502709,machine_learning+rule_based,HIGH
+2026-04-01 18:33:00,10.0.0.124,172.16.0.7,443,ICMP,24.0,1.365,0,normal,1,0,,-0.06703565321116145,machine_learning,LOW
+2026-04-01 18:38:00,203.0.113.17,172.16.0.36,6667,UDP,608.0,0.975,46,attack,8,245,Access to restricted port; Repeated failed login attempts,-0.13843891702317812,machine_learning+rule_based,HIGH
+2026-04-01 18:43:00,10.0.0.104,172.16.0.36,443,TCP,46.0,2.116,0,normal,13,1,,-0.007674837683219304,machine_learning,LOW
+2026-04-01 18:46:00,203.0.113.23,172.16.0.62,21,TCP,1082.0,1.031,56,attack,8,286,Access to restricted port; Repeated failed login attempts,-0.10178249229763481,machine_learning+rule_based,HIGH
+2026-04-01 18:51:00,203.0.113.14,172.16.0.45,6667,TCP,986.0,0.369,56,attack,8,309,Access to restricted port; Repeated failed login attempts,-0.1290644212900568,machine_learning+rule_based,HIGH
+2026-04-01 18:56:00,10.0.1.50,172.16.0.44,443,ICMP,35.0,20.154269999999993,1,normal,5,3,,-0.09302925475364798,machine_learning,HIGH
+2026-04-01 19:05:00,203.0.113.13,172.16.0.43,23,TCP,522.0,1.015,42,attack,10,306,Access to restricted port; Repeated failed login attempts,-0.11341796179368002,machine_learning+rule_based,HIGH
+2026-04-01 19:21:00,10.0.0.211,172.16.0.38,3306,TCP,37.0,6.159,0,normal,7,0,Access to restricted port,,rule_based,LOW
+2026-04-01 19:26:00,203.0.113.27,172.16.0.48,3389,TCP,899.0,0.942,49,attack,4,203,Access to restricted port; Repeated failed login attempts,-0.12090118854753684,machine_learning+rule_based,HIGH
+2026-04-01 19:27:00,203.0.113.17,172.16.0.16,25,TCP,1556.0,0.43,12,attack,8,245,Access to restricted port; Repeated failed login attempts,-0.10658046093667806,machine_learning+rule_based,HIGH
+2026-04-01 19:28:00,203.0.113.12,172.16.0.35,25,TCP,1623.1199999999972,0.184,49,attack,9,377,Access to restricted port; Repeated failed login attempts,-0.1052948788246455,machine_learning+rule_based,HIGH
+2026-04-01 19:41:00,203.0.113.11,172.16.0.4,3389,TCP,370.0,1.057,56,attack,6,244,Access to restricted port; Repeated failed login attempts,-0.1350608578586151,machine_learning+rule_based,HIGH
+2026-04-01 19:47:00,203.0.113.20,172.16.0.76,23,TCP,1623.0,0.874,32,attack,6,236,Access to restricted port; Repeated failed login attempts,-0.11583730532692083,machine_learning+rule_based,HIGH
+2026-04-01 19:48:00,10.0.0.239,172.16.0.78,443,TCP,28.0,11.924,1,normal,5,3,,-0.010978761878274734,machine_learning,LOW
+2026-04-01 19:49:00,203.0.113.20,172.16.0.15,5900,TCP,1232.0,0.394,19,attack,6,236,Access to restricted port; Repeated failed login attempts,-0.12819243252816748,machine_learning+rule_based,HIGH
+2026-04-01 19:53:00,203.0.113.13,172.16.0.27,25,TCP,967.0,1.089,54,attack,10,306,Access to restricted port; Repeated failed login attempts,-0.11859852232147305,machine_learning+rule_based,HIGH
+2026-04-01 19:59:00,203.0.113.13,172.16.0.62,4444,ICMP,775.0,0.813,35,attack,10,306,Access to restricted port; Repeated failed login attempts,-0.16627540043616074,machine_learning+rule_based,HIGH
+2026-04-01 20:06:00,203.0.113.25,172.16.0.14,5900,TCP,933.0,0.19,28,attack,2,75,Access to restricted port; Repeated failed login attempts,-0.15439517671619518,machine_learning+rule_based,HIGH
+2026-04-01 20:11:00,10.0.1.74,172.16.0.80,443,UDP,56.0,9.671,1,normal,7,2,,-0.004812303691764885,machine_learning,LOW
+2026-04-01 20:13:00,203.0.113.16,172.16.0.19,23,TCP,753.0,0.209,56,attack,5,207,Access to restricted port; Repeated failed login attempts,-0.10580883076115244,machine_learning+rule_based,HIGH
+2026-04-01 20:17:00,203.0.113.15,172.16.0.21,23,UDP,434.0,0.211,49,attack,11,431,Access to restricted port; Repeated failed login attempts,-0.14320380198484461,machine_learning+rule_based,HIGH
+2026-04-01 20:22:00,203.0.113.12,172.16.0.61,5900,TCP,522.0,0.17298,9,attack,9,377,Access to restricted port; Repeated failed login attempts,-0.12993021587673692,machine_learning+rule_based,HIGH
+2026-04-01 20:23:00,203.0.113.25,172.16.0.80,21,TCP,1143.0,0.547,47,attack,2,75,Access to restricted port; Repeated failed login attempts,-0.13646884780098445,machine_learning+rule_based,HIGH
+2026-04-01 20:26:00,10.0.0.46,172.16.0.10,8080,TCP,24.0,2.519,1,normal,9,2,,-0.02354009233914245,machine_learning,LOW
+2026-04-01 20:28:00,10.0.0.66,172.16.0.28,443,TCP,45.0,0.428,0,normal,9,1,,-0.0020519166160790636,machine_learning,LOW
+2026-04-01 20:30:00,10.0.1.91,172.16.0.59,8080,UDP,27.0,2.812,0,normal,10,1,,-0.02282594353838685,machine_learning,LOW
+2026-04-01 20:31:00,10.0.1.54,172.16.0.69,3306,TCP,39.0,5.498,0,normal,8,0,Access to restricted port,,rule_based,LOW
+2026-04-01 20:35:00,203.0.113.23,172.16.0.18,6667,TCP,1515.0,1.091,22,attack,8,286,Access to restricted port; Repeated failed login attempts,-0.12400422542694,machine_learning+rule_based,HIGH
+2026-04-01 20:45:00,10.0.1.159,172.16.0.79,443,TCP,42.0,2.22,1,normal,9,3,,-0.0020750451377816725,machine_learning,LOW
+2026-04-01 20:47:00,10.0.0.196,172.16.0.79,443,ICMP,30.0,0.943,0,normal,8,0,,-0.02995287326191509,machine_learning,LOW
+2026-04-01 20:52:00,203.0.113.30,172.16.0.77,21,TCP,1623.1199999999972,1.002,44,attack,9,280,Access to restricted port; Repeated failed login attempts,-0.13026671990395455,machine_learning+rule_based,HIGH
+2026-04-01 20:57:00,203.0.113.29,172.16.0.45,21,TCP,1479.0,0.536,46,attack,11,432,Access to restricted port; Repeated failed login attempts,-0.1400129195615325,machine_learning+rule_based,HIGH
+2026-04-01 20:58:00,203.0.113.23,172.16.0.8,3389,TCP,356.0,0.386,46,attack,8,286,Access to restricted port; Repeated failed login attempts,-0.1295936433121031,machine_learning+rule_based,HIGH
+2026-04-01 21:00:00,10.0.0.113,172.16.0.15,8080,UDP,31.0,1.194,0,normal,7,0,,-0.031908137869075426,machine_learning,LOW
+2026-04-01 21:05:00,203.0.113.21,172.16.0.34,3389,UDP,377.0,0.765,54,attack,8,281,Access to restricted port; Repeated failed login attempts,-0.1359132833607316,machine_learning+rule_based,HIGH
+2026-04-01 21:10:00,10.0.0.156,172.16.0.35,8080,TCP,36.0,3.782,1,normal,4,2,,-0.011196779257878098,machine_learning,LOW
+2026-04-01 21:18:00,203.0.113.24,172.16.0.79,5900,UDP,1623.1199999999972,0.655,56,attack,10,423,Access to restricted port; Repeated failed login attempts,-0.1666094965840671,machine_learning+rule_based,HIGH
+2026-04-01 21:23:00,203.0.113.29,172.16.0.61,3389,TCP,305.0,0.806,22,attack,11,432,Access to restricted port; Repeated failed login attempts,-0.14640574997924238,machine_learning+rule_based,HIGH
+2026-04-01 21:25:00,10.0.0.22,172.16.0.45,3306,TCP,35.0,6.213,0,normal,6,1,Access to restricted port,,rule_based,LOW
+2026-04-01 21:27:00,10.0.0.100,172.16.0.3,53,ICMP,31.0,4.773,1,normal,8,2,,-0.013253671963681324,machine_learning,LOW
+2026-04-01 21:39:00,10.0.0.14,172.16.0.6,80,ICMP,41.0,4.625,0,normal,7,4,,-0.007717483332770114,machine_learning,LOW
+2026-04-01 21:52:00,10.0.1.73,172.16.0.55,123,ICMP,36.0,8.037,0,normal,10,2,,-0.011420149589392525,machine_learning,LOW
+2026-04-01 21:55:00,203.0.113.15,172.16.0.7,25,TCP,1538.0,0.378,22,attack,11,431,Access to restricted port; Repeated failed login attempts,-0.140522962277565,machine_learning+rule_based,HIGH
+2026-04-01 21:58:00,10.0.0.190,172.16.0.51,443,TCP,36.0,3.373,1,normal,13,2,,-0.0006354212563588479,machine_learning,LOW
+2026-04-01 22:01:00,203.0.113.14,172.16.0.2,25,TCP,1458.0,0.319,11,attack,8,309,Access to restricted port; Repeated failed login attempts,-0.12527339234140455,machine_learning+rule_based,HIGH
+2026-04-01 22:03:00,10.0.1.118,172.16.0.16,22,TCP,43.0,20.154269999999993,1,normal,5,2,,-0.02996726582477638,machine_learning,LOW
+2026-04-01 22:06:00,10.0.1.31,172.16.0.28,80,UDP,38.0,1.938,0,normal,4,0,,-0.00014369270968161985,machine_learning,LOW
+2026-04-01 22:10:00,203.0.113.24,172.16.0.72,21,TCP,407.0,0.668,27,attack,10,423,Access to restricted port; Repeated failed login attempts,-0.13738886456541233,machine_learning+rule_based,HIGH
+2026-04-01 22:11:00,10.0.1.47,172.16.0.18,443,ICMP,40.0,4.31,0,normal,7,2,,-0.015435017832289732,machine_learning,LOW
+2026-04-01 22:26:00,10.0.1.105,172.16.0.62,443,ICMP,50.0,3.526,0,normal,7,1,,-0.006115001482999927,machine_learning,LOW
+2026-04-01 22:27:00,10.0.1.40,172.16.0.30,443,UDP,30.0,20.154269999999993,0,normal,9,2,,-0.005723316417714952,machine_learning,LOW
+2026-04-01 22:31:00,10.0.0.166,172.16.0.5,80,UDP,41.0,16.177,0,normal,8,0,,-0.012762594067501798,machine_learning,LOW
+2026-04-01 22:35:00,10.0.0.210,172.16.0.58,80,TCP,28.0,0.233,0,normal,3,0,,-0.015514313750023101,machine_learning,LOW
+2026-04-01 22:39:00,203.0.113.28,172.16.0.36,21,TCP,1623.1199999999972,1.043,19,attack,13,422,Access to restricted port; Repeated failed login attempts,-0.1490672119161568,machine_learning+rule_based,HIGH
+2026-04-01 22:43:00,203.0.113.26,172.16.0.50,5900,TCP,478.0,0.305,43,attack,12,451,Access to restricted port; Repeated failed login attempts,-0.1455379257577385,machine_learning+rule_based,HIGH
+2026-04-01 22:44:00,10.0.0.234,172.16.0.51,8080,UDP,39.0,1.834,0,normal,9,3,,-0.012688545425395992,machine_learning,LOW
+2026-04-01 22:48:00,10.0.1.150,172.16.0.19,443,TCP,23.0,6.151,1,normal,10,1,,-0.008204486688305423,machine_learning,LOW
+2026-04-01 22:49:00,10.0.1.12,172.16.0.58,80,UDP,35.0,4.977,0,normal,10,1,,-0.004773742101203737,machine_learning,LOW
+2026-04-01 22:50:00,203.0.113.10,172.16.0.5,3389,UDP,1008.0,0.405,56,attack,9,306,Access to restricted port; Repeated failed login attempts,-0.14770174463436359,machine_learning+rule_based,HIGH
+2026-04-01 22:52:00,10.0.0.190,172.16.0.70,53,ICMP,33.0,6.534,0,normal,13,2,,-0.03142433015430224,machine_learning,LOW
+2026-04-01 22:54:00,203.0.113.24,172.16.0.51,21,TCP,318.0,0.959,56,attack,10,423,Access to restricted port; Repeated failed login attempts,-0.13289416956031397,machine_learning+rule_based,HIGH
+2026-04-01 22:57:00,10.0.1.62,172.16.0.21,8080,UDP,44.0,2.447,0,normal,6,1,,-0.0023489292864714573,machine_learning,LOW
+2026-04-01 23:01:00,10.0.0.121,172.16.0.19,3306,UDP,31.0,1.428,0,normal,4,0,Access to restricted port,,rule_based,LOW
+2026-04-01 23:08:00,10.0.1.120,172.16.0.13,3306,ICMP,40.0,6.687,0,normal,7,0,Access to restricted port,-0.02756845039097533,machine_learning+rule_based,LOW
+2026-04-01 23:14:00,10.0.0.92,172.16.0.50,3306,TCP,34.0,5.284,0,normal,3,1,Access to restricted port,,rule_based,LOW
+2026-04-01 23:18:00,203.0.113.13,172.16.0.25,25,TCP,836.0,1.172,47,attack,10,306,Access to restricted port; Repeated failed login attempts,-0.1165854009501488,machine_learning+rule_based,HIGH
+2026-04-01 23:19:00,10.0.0.127,172.16.0.75,53,UDP,34.0,5.075,2,normal,5,3,,-0.0006285129198393413,machine_learning,LOW
+2026-04-01 23:24:00,203.0.113.29,172.16.0.70,5900,TCP,1216.0,0.264,56,attack,11,432,Access to restricted port; Repeated failed login attempts,-0.1574399135000819,machine_learning+rule_based,HIGH
+2026-04-01 23:26:00,10.0.0.147,172.16.0.58,443,ICMP,37.0,1.939,1,normal,6,1,,-0.026389955152859912,machine_learning,LOW
+2026-04-01 23:31:00,10.0.0.237,172.16.0.78,80,UDP,33.0,2.716,1,normal,4,3,,-0.01166912553261401,machine_learning,LOW
+2026-04-01 23:37:00,203.0.113.28,172.16.0.69,23,TCP,1403.0,0.294,37,attack,13,422,Access to restricted port; Repeated failed login attempts,-0.14472085969801374,machine_learning+rule_based,HIGH
+2026-04-01 23:38:00,10.0.1.107,172.16.0.6,443,UDP,42.0,12.106,1,normal,6,2,,-0.009960425661935557,machine_learning,LOW
+2026-04-01 23:43:00,10.0.1.29,172.16.0.34,3306,UDP,39.0,3.371,0,normal,6,0,Access to restricted port,,rule_based,LOW
+2026-04-01 23:46:00,203.0.113.32,172.16.0.41,21,TCP,1468.0,0.78,51,attack,11,320,Access to restricted port; Repeated failed login attempts,-0.1336467511278685,machine_learning+rule_based,HIGH
+2026-04-01 23:49:00,10.0.1.77,172.16.0.60,3306,TCP,34.0,8.304,0,normal,3,1,Access to restricted port,,rule_based,LOW
+2026-04-01 23:57:00,10.0.1.20,172.16.0.39,443,TCP,28.0,6.691,1,normal,11,1,,-0.019098767011905826,machine_learning,LOW
+2026-04-01 23:58:00,10.0.0.135,172.16.0.59,80,UDP,44.0,3.303,1,normal,8,2,,-0.02949027273885174,machine_learning,LOW
+2026-04-02 00:01:00,10.0.0.216,172.16.0.26,53,UDP,47.0,0.268,0,normal,2,0,,-0.07078747032476718,machine_learning,LOW
+2026-04-02 00:06:00,203.0.113.32,172.16.0.3,21,UDP,1623.1199999999972,0.17298,24,attack,11,320,Access to restricted port; Repeated failed login attempts,-0.1433499641310957,machine_learning+rule_based,HIGH
+2026-04-02 00:08:00,10.0.1.56,172.16.0.78,443,UDP,44.0,10.233,0,normal,12,1,,-0.02199695666311563,machine_learning,LOW
+2026-04-02 00:12:00,10.0.0.23,172.16.0.59,8080,TCP,39.0,0.316,0,normal,8,1,,-0.02910848393019161,machine_learning,LOW
+2026-04-02 00:16:00,10.0.1.159,172.16.0.43,8080,TCP,37.0,9.313,1,normal,9,3,,-0.026094357401769797,machine_learning,LOW
+2026-04-02 00:17:00,10.0.0.192,172.16.0.59,8080,UDP,39.0,14.417,0,normal,11,4,,-0.04332517513089795,machine_learning,LOW
+2026-04-02 00:25:00,203.0.113.10,172.16.0.69,5900,UDP,1245.0,0.712,36,attack,9,306,Access to restricted port; Repeated failed login attempts,-0.15067257236965714,machine_learning+rule_based,HIGH
+2026-04-02 00:28:00,203.0.113.24,172.16.0.48,21,ICMP,1490.0,0.654,38,attack,10,423,Access to restricted port; Repeated failed login attempts,-0.15340215554834202,machine_learning+rule_based,HIGH
+2026-04-02 00:31:00,10.0.1.39,172.16.0.75,53,TCP,50.0,0.853,2,normal,5,3,,-0.0332411046546921,machine_learning,LOW
+2026-04-02 00:32:00,10.0.0.190,172.16.0.11,80,ICMP,33.0,4.01,0,normal,13,2,,-0.04935575050270535,machine_learning,LOW
+2026-04-02 00:44:00,10.0.0.175,172.16.0.69,80,ICMP,45.0,9.063,0,normal,9,0,,-0.025886122239179632,machine_learning,LOW
+2026-04-02 00:49:00,10.0.0.214,172.16.0.39,8080,ICMP,25.0,4.721,0,normal,8,1,,-0.034541096872383825,machine_learning,LOW
+2026-04-02 01:12:00,203.0.113.28,172.16.0.56,3389,TCP,1449.0,0.959,15,attack,13,422,Access to restricted port; Repeated failed login attempts,-0.14546043039880596,machine_learning+rule_based,HIGH
+2026-04-02 01:20:00,203.0.113.28,172.16.0.12,21,ICMP,978.0,0.344,44,attack,13,422,Access to restricted port; Repeated failed login attempts,-0.174840911151818,machine_learning+rule_based,HIGH
+2026-04-02 01:22:00,203.0.113.10,172.16.0.44,6667,TCP,842.0,1.007,11,attack,9,306,Access to restricted port; Repeated failed login attempts,-0.13357587326476994,machine_learning+rule_based,HIGH
+2026-04-02 01:23:00,10.0.0.65,172.16.0.24,3306,TCP,31.0,9.121,0,normal,7,0,Access to restricted port,,rule_based,LOW
+2026-04-02 01:24:00,203.0.113.10,172.16.0.37,4444,TCP,1434.0,0.666,51,attack,9,306,Access to restricted port; Repeated failed login attempts,-0.12357502158696032,machine_learning+rule_based,HIGH
+2026-04-02 01:25:00,10.0.0.21,172.16.0.13,8080,ICMP,35.0,3.687,0,normal,3,0,,-0.036310780307270085,machine_learning,LOW
+2026-04-02 01:29:00,10.0.1.131,172.16.0.34,3306,TCP,36.0,3.564,1,normal,6,2,Access to restricted port,,rule_based,LOW
+2026-04-02 01:31:00,10.0.0.5,172.16.0.43,80,ICMP,37.0,1.138,1,normal,7,4,,-0.04577716983499325,machine_learning,LOW
+2026-04-02 01:32:00,10.0.1.137,172.16.0.23,443,UDP,24.0,0.623,0,normal,10,2,,-0.016695832262617616,machine_learning,LOW
+2026-04-02 01:41:00,203.0.113.34,172.16.0.53,6667,TCP,716.0,0.831,50,attack,9,286,Access to restricted port; Repeated failed login attempts,-0.13116782689536566,machine_learning+rule_based,HIGH
+2026-04-02 01:42:00,203.0.113.28,172.16.0.62,5900,UDP,632.0,1.116,24,attack,13,422,Access to restricted port; Repeated failed login attempts,-0.1672869765896512,machine_learning+rule_based,HIGH
+2026-04-02 01:43:00,10.0.0.240,172.16.0.10,3306,TCP,35.0,2.392,0,normal,4,1,Access to restricted port,,rule_based,LOW
+2026-04-02 01:50:00,10.0.0.119,172.16.0.27,8080,UDP,37.0,10.626,0,normal,8,1,,-0.0006253004140229779,machine_learning,LOW
+2026-04-02 02:00:00,10.0.0.123,172.16.0.13,8080,TCP,31.0,5.892,1,normal,9,2,,-0.0046697359222215296,machine_learning,LOW
+2026-04-02 02:05:00,10.0.0.192,172.16.0.29,443,UDP,40.0,13.54,1,normal,11,4,,-0.04868620165651105,machine_learning,LOW
+2026-04-02 02:08:00,10.0.1.128,172.16.0.60,3306,TCP,23.0,3.762,0,normal,5,2,Access to restricted port,,rule_based,LOW
+2026-04-02 02:10:00,203.0.113.24,172.16.0.9,4444,UDP,1566.0,0.266,46,attack,10,423,Access to restricted port; Repeated failed login attempts,-0.15334856895828275,machine_learning+rule_based,HIGH
+2026-04-02 02:17:00,10.0.1.81,172.16.0.49,123,UDP,24.0,3.836,2,normal,4,2,,-0.0025594884876884993,machine_learning,LOW
+2026-04-02 02:18:00,10.0.0.49,172.16.0.21,53,ICMP,45.0,0.767,1,normal,6,1,,-0.04213274246020493,machine_learning,LOW
+2026-04-02 02:25:00,10.0.0.135,172.16.0.51,3306,TCP,33.0,2.781,0,normal,8,2,Access to restricted port,,rule_based,LOW
+2026-04-02 02:39:00,10.0.1.43,172.16.0.28,3306,TCP,26.0,3.624,0,normal,1,0,Access to restricted port,,rule_based,LOW
+2026-04-02 02:44:00,10.0.0.54,172.16.0.8,3306,UDP,33.0,8.029,1,normal,5,1,Access to restricted port,,rule_based,LOW
+2026-04-02 02:48:00,10.0.0.101,172.16.0.42,3306,TCP,41.0,1.959,0,normal,7,0,Access to restricted port,,rule_based,LOW
+2026-04-02 02:54:00,10.0.0.27,172.16.0.24,443,ICMP,36.0,7.568,1,normal,6,1,,-0.010631566793567582,machine_learning,LOW
+2026-04-02 03:00:00,10.0.0.113,172.16.0.59,8080,UDP,23.0,5.382,0,normal,7,0,,-0.009538596323518611,machine_learning,LOW
+2026-04-02 03:09:00,10.0.0.55,172.16.0.35,3306,UDP,37.0,5.429,0,normal,6,1,Access to restricted port,,rule_based,LOW
+2026-04-02 03:14:00,10.0.0.175,172.16.0.79,80,UDP,43.0,16.248,0,normal,9,0,,-0.011733480056402401,machine_learning,LOW
+2026-04-02 03:18:00,203.0.113.22,172.16.0.71,3389,UDP,282.0,0.702,25,attack,9,398,Access to restricted port; Repeated failed login attempts,-0.14497889871161906,machine_learning+rule_based,HIGH
+2026-04-02 03:36:00,10.0.1.102,172.16.0.57,3306,TCP,29.0,16.193,1,normal,6,1,Access to restricted port,,rule_based,LOW
+2026-04-02 03:37:00,10.0.1.113,172.16.0.25,53,ICMP,35.0,7.402,1,normal,9,4,,-0.05205447130224006,machine_learning,LOW
+2026-04-02 03:43:00,203.0.113.24,172.16.0.17,21,UDP,462.0,0.217,18,attack,10,423,Access to restricted port; Repeated failed login attempts,-0.1358934888103961,machine_learning+rule_based,HIGH
+2026-04-02 03:45:00,203.0.113.15,172.16.0.55,4444,UDP,384.0,0.177,26,attack,11,431,Access to restricted port; Repeated failed login attempts,-0.15390611279585775,machine_learning+rule_based,HIGH
+2026-04-02 03:55:00,203.0.113.34,172.16.0.29,6667,TCP,723.0,0.885,32,attack,9,286,Access to restricted port; Repeated failed login attempts,-0.1348069979593597,machine_learning+rule_based,HIGH
+2026-04-02 03:57:00,10.0.0.177,172.16.0.58,8080,UDP,31.0,4.908,0,normal,11,1,,-0.025670219467040067,machine_learning,LOW
+2026-04-02 03:58:00,203.0.113.32,172.16.0.38,23,TCP,1406.0,0.17298,31,attack,11,320,Access to restricted port; Repeated failed login attempts,-0.12228344566854243,machine_learning+rule_based,HIGH
+2026-04-02 03:59:00,203.0.113.30,172.16.0.38,25,TCP,423.0,0.471,54,attack,9,280,Access to restricted port; Repeated failed login attempts,-0.11769780983309852,machine_learning+rule_based,HIGH
+2026-04-02 04:04:00,203.0.113.22,172.16.0.6,5900,TCP,764.0,0.813,56,attack,9,398,Access to restricted port; Repeated failed login attempts,-0.13572603002422334,machine_learning+rule_based,HIGH
+2026-04-02 04:06:00,10.0.0.181,172.16.0.22,53,UDP,31.0,0.348,0,normal,3,0,,-0.0018824505666513724,machine_learning,LOW
+2026-04-02 04:07:00,203.0.113.10,172.16.0.18,23,UDP,1623.1199999999972,0.651,32,attack,9,306,Access to restricted port; Repeated failed login attempts,-0.1303734799268753,machine_learning+rule_based,HIGH
+2026-04-02 04:43:00,10.0.1.53,172.16.0.44,53,TCP,23.0,18.24,1,normal,3,1,,-0.008602440163868796,machine_learning,LOW
+2026-04-02 04:45:00,203.0.113.16,172.16.0.16,4444,TCP,854.0,0.375,17,attack,5,207,Access to restricted port; Repeated failed login attempts,-0.12046452336064051,machine_learning+rule_based,HIGH
+2026-04-02 04:50:00,10.0.1.73,172.16.0.7,8080,UDP,37.0,10.824,2,normal,10,2,,-0.06946717915433365,machine_learning,LOW
+2026-04-02 05:14:00,203.0.113.33,172.16.0.28,5900,TCP,1623.1199999999972,0.17298,39,attack,7,200,Access to restricted port; Repeated failed login attempts,-0.11372073662050797,machine_learning+rule_based,HIGH
+2026-04-02 05:15:00,203.0.113.28,172.16.0.27,5900,TCP,1609.0,0.233,21,attack,13,422,Access to restricted port; Repeated failed login attempts,-0.14649293586214096,machine_learning+rule_based,HIGH
+2026-04-02 05:17:00,203.0.113.34,172.16.0.9,3389,UDP,1623.1199999999972,0.438,21,attack,9,286,Access to restricted port; Repeated failed login attempts,-0.13652943702233966,machine_learning+rule_based,HIGH
+2026-04-02 05:23:00,203.0.113.30,172.16.0.61,23,TCP,536.0,0.34,26,attack,9,280,Access to restricted port; Repeated failed login attempts,-0.10927345565866464,machine_learning+rule_based,HIGH
+2026-04-02 05:33:00,10.0.0.167,172.16.0.26,443,ICMP,38.0,1.156,1,normal,7,3,,-0.03679705165864389,machine_learning,LOW
+2026-04-02 05:46:00,10.0.0.85,172.16.0.58,3306,TCP,36.0,8.449,0,normal,4,1,Access to restricted port,,rule_based,LOW
+2026-04-02 06:02:00,10.0.0.192,172.16.0.12,8080,TCP,42.0,0.934,1,normal,11,4,,-0.055305292449268406,machine_learning,LOW
+2026-04-02 06:05:00,10.0.0.20,172.16.0.62,53,UDP,30.0,6.915,1,normal,10,3,,-0.002313978264615546,machine_learning,LOW
+2026-04-02 06:13:00,203.0.113.22,172.16.0.9,23,TCP,1189.0,0.848,55,attack,9,398,Access to restricted port; Repeated failed login attempts,-0.10653841909665551,machine_learning+rule_based,HIGH
+2026-04-02 06:19:00,10.0.0.125,172.16.0.5,80,ICMP,41.0,3.385,1,normal,7,4,,-0.030991674098236,machine_learning,LOW
+2026-04-02 06:20:00,203.0.113.20,172.16.0.54,4444,TCP,708.0,0.494,24,attack,6,236,Access to restricted port; Repeated failed login attempts,-0.10616470246050913,machine_learning+rule_based,HIGH
+2026-04-02 06:26:00,203.0.113.24,172.16.0.69,5900,TCP,677.0,0.524,47,attack,10,423,Access to restricted port; Repeated failed login attempts,-0.14015937003258183,machine_learning+rule_based,HIGH
+2026-04-02 06:29:00,10.0.1.158,172.16.0.71,3306,UDP,25.0,18.089,0,normal,3,0,Access to restricted port,-0.04349031120675828,machine_learning+rule_based,LOW
+2026-04-02 06:33:00,10.0.0.32,172.16.0.72,80,ICMP,27.0,5.176,1,normal,4,1,,-0.02519576635183418,machine_learning,LOW
+2026-04-02 06:41:00,10.0.0.42,172.16.0.35,53,ICMP,30.0,4.458,1,normal,5,3,,-0.009836342738754222,machine_learning,LOW
+2026-04-02 06:42:00,203.0.113.24,172.16.0.38,3389,UDP,1243.0,0.946,41,attack,10,423,Access to restricted port; Repeated failed login attempts,-0.13903475593015324,machine_learning+rule_based,HIGH
+2026-04-02 06:48:00,203.0.113.11,172.16.0.62,23,TCP,959.0,0.754,16,attack,6,244,Access to restricted port; Repeated failed login attempts,-0.10989147376268082,machine_learning+rule_based,HIGH
+2026-04-02 06:52:00,203.0.113.16,172.16.0.45,23,UDP,1511.0,0.945,56,attack,5,207,Access to restricted port; Repeated failed login attempts,-0.11396081969066352,machine_learning+rule_based,HIGH
+2026-04-02 06:53:00,203.0.113.32,172.16.0.34,4444,TCP,387.0,0.465,22,attack,11,320,Access to restricted port; Repeated failed login attempts,-0.12977157255984006,machine_learning+rule_based,HIGH
+2026-04-02 07:25:00,10.0.0.77,172.16.0.58,3306,ICMP,38.0,8.638,0,normal,7,2,Access to restricted port,-0.015683599638395607,machine_learning+rule_based,LOW
+2026-04-02 07:39:00,203.0.113.11,172.16.0.54,4444,UDP,954.0,0.254,44,attack,6,244,Access to restricted port; Repeated failed login attempts,-0.13894800517344608,machine_learning+rule_based,HIGH
+2026-04-02 07:45:00,10.0.0.104,172.16.0.72,443,UDP,42.0,20.154269999999993,0,normal,13,1,,-0.0727433928744119,machine_learning,LOW
+2026-04-02 07:46:00,10.0.0.126,172.16.0.22,3306,UDP,40.0,6.535,0,normal,8,0,Access to restricted port,,rule_based,LOW
+2026-04-02 07:47:00,10.0.0.69,172.16.0.16,80,UDP,43.0,20.154269999999993,1,normal,6,2,,-0.01044470773032058,machine_learning,LOW
+2026-04-02 08:09:00,10.0.1.145,172.16.0.74,22,ICMP,33.0,3.526,1,normal,5,1,,-0.020697416216692188,machine_learning,LOW
+2026-04-02 08:11:00,10.0.0.203,172.16.0.8,3306,UDP,39.0,2.202,0,normal,6,0,Access to restricted port,,rule_based,LOW
+2026-04-02 08:13:00,10.0.1.146,172.16.0.11,80,UDP,35.0,13.723,1,normal,8,2,,-0.018576837778941147,machine_learning,LOW
+2026-04-02 08:23:00,10.0.0.14,172.16.0.37,3306,TCP,43.0,5.081,3,normal,7,4,Access to restricted port,-0.020957996858346428,machine_learning+rule_based,LOW
+2026-04-02 08:31:00,10.0.1.1,172.16.0.22,8080,ICMP,35.0,9.407,0,normal,4,0,,-0.031118828559585032,machine_learning,LOW
+2026-04-02 08:40:00,203.0.113.28,172.16.0.10,4444,TCP,997.0,0.312,19,attack,13,422,Access to restricted port; Repeated failed login attempts,-0.15025177436966042,machine_learning+rule_based,HIGH
+2026-04-02 08:43:00,203.0.113.17,172.16.0.53,21,TCP,974.0,1.138,46,attack,8,245,Access to restricted port; Repeated failed login attempts,-0.09287340413914513,machine_learning+rule_based,HIGH
+2026-04-02 08:50:00,10.0.1.94,172.16.0.33,3306,UDP,39.0,8.238,0,normal,6,0,Access to restricted port,,rule_based,LOW
+2026-04-02 08:53:00,10.0.0.145,172.16.0.12,22,ICMP,46.0,0.507,0,normal,11,2,,-0.06080859974093589,machine_learning,LOW
+2026-04-02 08:57:00,203.0.113.28,172.16.0.31,21,TCP,1261.0,1.104,45,attack,13,422,Access to restricted port; Repeated failed login attempts,-0.14819629934837608,machine_learning+rule_based,HIGH
+2026-04-02 08:59:00,10.0.1.79,172.16.0.44,8080,UDP,27.0,2.22,1,normal,8,3,,-0.04196208587667005,machine_learning,LOW
+2026-04-02 09:00:00,10.0.1.22,172.16.0.38,80,ICMP,34.0,14.87,0,normal,6,2,,-0.003469522413050319,machine_learning,LOW
+2026-04-02 09:01:00,10.0.1.7,172.16.0.25,443,ICMP,37.0,3.852,0,normal,4,0,,-0.022401396358178727,machine_learning,LOW
+2026-04-02 09:12:00,203.0.113.28,172.16.0.57,21,UDP,584.0,1.07,56,attack,13,422,Access to restricted port; Repeated failed login attempts,-0.15612289711029836,machine_learning+rule_based,HIGH
+2026-04-02 09:18:00,203.0.113.12,172.16.0.21,4444,UDP,586.0,0.17298,56,attack,9,377,Access to restricted port; Repeated failed login attempts,-0.1244361221884468,machine_learning+rule_based,HIGH
+2026-04-02 09:23:00,203.0.113.26,172.16.0.62,3389,TCP,344.0,0.197,38,attack,12,451,Access to restricted port; Repeated failed login attempts,-0.14006718966158205,machine_learning+rule_based,HIGH
+2026-04-02 09:24:00,203.0.113.26,172.16.0.3,4444,UDP,1197.0,0.752,28,attack,12,451,Access to restricted port; Repeated failed login attempts,-0.1501356574332816,machine_learning+rule_based,HIGH
+2026-04-02 09:26:00,203.0.113.26,172.16.0.24,6667,UDP,1236.0,0.706,52,attack,12,451,Access to restricted port; Repeated failed login attempts,-0.15081893365329235,machine_learning+rule_based,HIGH
+2026-04-02 09:31:00,10.0.0.166,172.16.0.43,80,ICMP,41.0,11.204,0,normal,8,0,,-0.013068254189010586,machine_learning,LOW
+2026-04-02 09:35:00,10.0.0.135,172.16.0.64,80,ICMP,39.0,2.582,0,normal,8,2,,-0.00806578997339158,machine_learning,LOW
+2026-04-02 09:40:00,10.0.0.128,172.16.0.80,53,ICMP,39.0,14.803,0,normal,12,2,,-0.03979715688794505,machine_learning,LOW
+2026-04-02 09:48:00,203.0.113.14,172.16.0.37,4444,TCP,1471.0,0.957,32,attack,8,309,Access to restricted port; Repeated failed login attempts,-0.11226163806751199,machine_learning+rule_based,HIGH
+2026-04-02 09:50:00,203.0.113.14,172.16.0.4,4444,TCP,915.0,0.723,56,attack,8,309,Access to restricted port; Repeated failed login attempts,-0.12097162432733377,machine_learning+rule_based,HIGH
+2026-04-02 09:57:00,203.0.113.17,172.16.0.59,21,UDP,1612.0,1.099,14,attack,8,245,Access to restricted port; Repeated failed login attempts,-0.12391101194809917,machine_learning+rule_based,HIGH
+2026-04-02 09:59:00,10.0.0.190,172.16.0.70,80,UDP,42.0,4.445,0,normal,13,2,,-0.01575693747185558,machine_learning,LOW
+2026-04-02 10:04:00,203.0.113.10,172.16.0.37,21,ICMP,1270.0,1.092,41,attack,9,306,Access to restricted port; Repeated failed login attempts,-0.1456094377605469,machine_learning+rule_based,HIGH
+2026-04-02 10:05:00,10.0.1.162,172.16.0.61,80,ICMP,31.0,8.183,1,normal,6,1,,-0.03771941954993652,machine_learning,LOW
+2026-04-02 10:07:00,203.0.113.26,172.16.0.68,3389,TCP,491.0,0.513,30,attack,12,451,Access to restricted port; Repeated failed login attempts,-0.14372718013391872,machine_learning+rule_based,HIGH
+2026-04-02 10:15:00,203.0.113.29,172.16.0.19,23,TCP,834.0,0.17298,36,attack,11,432,Access to restricted port; Repeated failed login attempts,-0.12486936772242296,machine_learning+rule_based,HIGH
+2026-04-02 10:26:00,10.0.1.50,172.16.0.57,443,UDP,34.0,8.64,1,normal,5,3,,-0.009710748302083738,machine_learning,LOW
+2026-04-02 10:39:00,10.0.0.54,172.16.0.25,53,ICMP,26.0,16.801,0,normal,5,1,,-0.016700423748809867,machine_learning,LOW
+2026-04-02 10:44:00,203.0.113.16,172.16.0.48,3389,TCP,889.0,0.422,55,attack,5,207,Access to restricted port; Repeated failed login attempts,-0.11318899092292478,machine_learning+rule_based,HIGH
+2026-04-02 10:47:00,10.0.1.24,172.16.0.26,3306,TCP,35.0,5.905,0,normal,6,0,Access to restricted port,,rule_based,LOW
+2026-04-02 10:57:00,203.0.113.18,172.16.0.2,21,TCP,1400.0,1.098,21,attack,10,292,Access to restricted port; Repeated failed login attempts,-0.1331575359691175,machine_learning+rule_based,HIGH
+2026-04-02 10:58:00,203.0.113.23,172.16.0.77,6667,TCP,1076.0,0.892,49,attack,8,286,Access to restricted port; Repeated failed login attempts,-0.13417919666958267,machine_learning+rule_based,HIGH
+2026-04-02 11:01:00,10.0.1.26,172.16.0.76,3306,TCP,39.0,5.161,0,normal,2,0,Access to restricted port,,rule_based,LOW
+2026-04-02 11:06:00,203.0.113.32,172.16.0.20,23,TCP,723.0,1.168,16,attack,11,320,Access to restricted port; Repeated failed login attempts,-0.11580765284568295,machine_learning+rule_based,HIGH
+2026-04-02 11:08:00,203.0.113.21,172.16.0.70,6667,TCP,743.0,0.361,56,attack,8,281,Access to restricted port; Repeated failed login attempts,-0.13386652247251718,machine_learning+rule_based,HIGH
+2026-04-02 11:15:00,10.0.0.86,172.16.0.36,80,UDP,33.0,0.879,0,normal,10,3,,-0.031773682013658155,machine_learning,LOW
+2026-04-02 11:16:00,203.0.113.31,172.16.0.25,3389,TCP,791.0,0.813,34,attack,8,257,Access to restricted port; Repeated failed login attempts,-0.12013276052363331,machine_learning+rule_based,HIGH
+2026-04-02 11:19:00,203.0.113.28,172.16.0.72,25,TCP,956.0,0.99,47,attack,13,422,Access to restricted port; Repeated failed login attempts,-0.13752022168013933,machine_learning+rule_based,HIGH
+2026-04-02 11:32:00,203.0.113.26,172.16.0.23,21,TCP,860.0,0.17298,27,attack,12,451,Access to restricted port; Repeated failed login attempts,-0.12367871077361103,machine_learning+rule_based,HIGH
+2026-04-02 11:39:00,203.0.113.13,172.16.0.74,6667,TCP,1623.1199999999972,0.879,32,attack,10,306,Access to restricted port; Repeated failed login attempts,-0.1406659721567618,machine_learning+rule_based,HIGH
+2026-04-02 11:40:00,203.0.113.12,172.16.0.68,4444,TCP,917.0,1.151,51,attack,9,377,Access to restricted port; Repeated failed login attempts,-0.12005635521511293,machine_learning+rule_based,HIGH
+2026-04-02 11:46:00,10.0.0.75,172.16.0.60,3306,TCP,39.0,11.154,0,normal,8,1,Access to restricted port,,rule_based,LOW
+2026-04-02 11:52:00,10.0.1.105,172.16.0.28,53,ICMP,33.0,20.154269999999993,0,normal,7,1,,-0.013095740185335991,machine_learning,LOW
+2026-04-02 11:57:00,10.0.1.11,172.16.0.47,53,ICMP,34.0,9.652,0,normal,4,0,,-0.003986429349354226,machine_learning,LOW
+2026-04-02 12:01:00,10.0.0.104,172.16.0.47,3306,TCP,35.0,6.913,0,normal,13,1,Access to restricted port,,rule_based,LOW
+2026-04-02 12:04:00,203.0.113.24,172.16.0.26,25,UDP,768.0,0.572,46,attack,10,423,Access to restricted port; Repeated failed login attempts,-0.13843888789920022,machine_learning+rule_based,HIGH
+2026-04-02 12:07:00,203.0.113.34,172.16.0.12,23,TCP,590.0,0.378,49,attack,9,286,Access to restricted port; Repeated failed login attempts,-0.10561990501510143,machine_learning+rule_based,HIGH
+2026-04-02 12:35:00,10.0.1.88,172.16.0.68,443,ICMP,37.0,8.806,0,normal,3,0,,-0.0005280881522514713,machine_learning,LOW
+2026-04-02 12:36:00,203.0.113.22,172.16.0.7,4444,TCP,1340.0,1.001,11,attack,9,398,Access to restricted port; Repeated failed login attempts,-0.13132527550080608,machine_learning+rule_based,HIGH
+2026-04-02 12:53:00,10.0.0.50,172.16.0.40,3306,TCP,47.0,11.358,0,normal,4,2,Access to restricted port,,rule_based,LOW
+2026-04-02 12:56:00,10.0.0.190,172.16.0.72,80,UDP,29.0,1.322,0,normal,13,2,,-0.02832273798484708,machine_learning,LOW
+2026-04-02 12:57:00,10.0.1.165,172.16.0.80,443,UDP,47.0,0.755,0,normal,5,0,,-0.01621259829091426,machine_learning,LOW
+2026-04-02 13:09:00,10.0.1.157,172.16.0.54,80,ICMP,27.0,6.882,0,normal,7,2,,-0.0010715342088335467,machine_learning,LOW
+2026-04-02 13:11:00,10.0.0.31,172.16.0.56,3306,TCP,46.0,2.036,1,normal,2,1,Access to restricted port,-0.0141149628089281,machine_learning+rule_based,LOW
+2026-04-02 13:14:00,10.0.0.248,172.16.0.67,3306,TCP,40.0,2.554,0,normal,8,1,Access to restricted port,,rule_based,LOW
+2026-04-02 13:25:00,10.0.1.95,172.16.0.26,22,ICMP,32.0,0.906,0,normal,6,2,,-0.00584367715989953,machine_learning,LOW
+2026-04-02 13:32:00,10.0.0.104,172.16.0.65,80,UDP,35.0,19.038,0,normal,13,1,,-0.027903325641798538,machine_learning,LOW
+2026-04-02 13:34:00,10.0.0.125,172.16.0.18,3306,TCP,41.0,3.846,1,normal,7,4,Access to restricted port,,rule_based,LOW
+2026-04-02 13:37:00,10.0.1.20,172.16.0.12,8080,UDP,36.0,7.956,0,normal,11,1,,-0.007834316780148676,machine_learning,LOW
+2026-04-02 13:42:00,10.0.0.15,172.16.0.9,3306,TCP,46.0,4.298,1,normal,4,1,Access to restricted port,,rule_based,LOW
+2026-04-02 13:47:00,203.0.113.20,172.16.0.2,21,TCP,707.0,0.723,56,attack,6,236,Access to restricted port; Repeated failed login attempts,-0.11062626603868642,machine_learning+rule_based,HIGH
+2026-04-02 13:54:00,10.0.0.76,172.16.0.23,22,UDP,41.0,4.283,2,normal,7,3,,-0.01119140813230024,machine_learning,LOW
+2026-04-02 14:01:00,10.0.0.150,172.16.0.48,8080,TCP,44.0,8.876,1,normal,3,1,,-0.006051284499992038,machine_learning,LOW
+2026-04-02 14:02:00,10.0.0.137,172.16.0.29,3306,TCP,43.0,1.846,0,normal,5,0,Access to restricted port,,rule_based,LOW
+2026-04-02 14:43:00,10.0.1.20,172.16.0.78,443,UDP,34.0,11.43,0,normal,11,1,,-0.014239564510909686,machine_learning,LOW
+2026-04-02 14:46:00,10.0.0.145,172.16.0.17,53,ICMP,42.0,1.644,0,normal,11,2,,-0.015979066832815136,machine_learning,LOW
+2026-04-02 14:47:00,203.0.113.29,172.16.0.44,5900,TCP,1623.1199999999972,1.016,23,attack,11,432,Access to restricted port; Repeated failed login attempts,-0.14672999798187403,machine_learning+rule_based,HIGH
+2026-04-02 14:49:00,10.0.0.63,172.16.0.40,3306,TCP,27.0,15.532,0,normal,6,0,Access to restricted port,,rule_based,LOW
+2026-04-02 14:51:00,203.0.113.15,172.16.0.10,23,UDP,1243.0,0.326,28,attack,11,431,Access to restricted port; Repeated failed login attempts,-0.14575242222346152,machine_learning+rule_based,HIGH
+2026-04-02 14:52:00,203.0.113.29,172.16.0.32,3389,TCP,291.0,0.17298,39,attack,11,432,Access to restricted port; Repeated failed login attempts,-0.14613789051894777,machine_learning+rule_based,HIGH
+2026-04-02 14:57:00,203.0.113.34,172.16.0.7,23,TCP,1356.0,0.17298,15,attack,9,286,Access to restricted port; Repeated failed login attempts,-0.1176839277846986,machine_learning+rule_based,HIGH
+2026-04-02 14:59:00,203.0.113.30,172.16.0.75,21,UDP,342.0,0.8,14,attack,9,280,Access to restricted port; Repeated failed login attempts,-0.14388448276868315,machine_learning+rule_based,HIGH
+2026-04-02 15:08:00,10.0.0.86,172.16.0.14,53,TCP,45.0,4.166,2,normal,10,3,,-0.02525155475843399,machine_learning,LOW
+2026-04-02 15:12:00,10.0.1.46,172.16.0.10,443,ICMP,32.0,9.173,0,normal,4,0,,-0.00365473146607298,machine_learning,LOW
+2026-04-02 15:14:00,203.0.113.33,172.16.0.6,25,TCP,1049.0,1.163,10,attack,7,200,Access to restricted port; Repeated failed login attempts,-0.10698696674082198,machine_learning+rule_based,HIGH
+2026-04-02 15:15:00,10.0.0.156,172.16.0.56,8080,TCP,43.0,0.888,1,normal,4,2,,-0.02879036137907187,machine_learning,LOW
+2026-04-02 15:24:00,203.0.113.12,172.16.0.71,5900,TCP,723.0,0.388,30,attack,9,377,Access to restricted port; Repeated failed login attempts,-0.12531117650301338,machine_learning+rule_based,HIGH
+2026-04-02 15:36:00,203.0.113.19,172.16.0.34,6667,TCP,1623.1199999999972,0.989,56,attack,5,185,Access to restricted port; Repeated failed login attempts,-0.127420050297682,machine_learning+rule_based,HIGH
+2026-04-02 15:45:00,10.0.1.113,172.16.0.17,443,UDP,52.0,1.786,1,normal,9,4,,-0.04779545317543654,machine_learning,LOW
+2026-04-02 15:49:00,10.0.1.112,172.16.0.40,8080,TCP,40.0,5.617,1,normal,3,2,,-0.0011385592293445823,machine_learning,LOW
+2026-04-02 15:54:00,203.0.113.29,172.16.0.40,23,UDP,938.0,0.315,46,attack,11,432,Access to restricted port; Repeated failed login attempts,-0.1444903271083271,machine_learning+rule_based,HIGH
+2026-04-02 15:58:00,10.0.0.107,172.16.0.61,443,ICMP,32.0,4.578,0,normal,3,1,,-0.03399521914594794,machine_learning,LOW
+2026-04-02 15:59:00,203.0.113.18,172.16.0.48,6667,UDP,616.0,0.964,34,attack,10,292,Access to restricted port; Repeated failed login attempts,-0.1572913347022138,machine_learning+rule_based,HIGH
+2026-04-02 16:18:00,10.0.0.122,172.16.0.68,3306,TCP,40.0,8.296,0,normal,8,0,Access to restricted port,,rule_based,LOW
+2026-04-02 16:22:00,203.0.113.33,172.16.0.45,25,TCP,1516.0,0.436,17,attack,7,200,Access to restricted port; Repeated failed login attempts,-0.09879822346439193,machine_learning+rule_based,HIGH
+2026-04-02 16:26:00,10.0.0.68,172.16.0.33,80,ICMP,30.0,8.22,0,normal,3,1,,-0.014036970358939471,machine_learning,LOW
+2026-04-02 16:29:00,203.0.113.31,172.16.0.19,25,UDP,956.0,0.17298,25,attack,8,257,Access to restricted port; Repeated failed login attempts,-0.1286309227446455,machine_learning+rule_based,HIGH
+2026-04-02 17:06:00,10.0.0.128,172.16.0.19,80,TCP,28.0,1.356,0,normal,12,2,,-0.003401398613609996,machine_learning,LOW
+2026-04-02 17:15:00,203.0.113.26,172.16.0.65,6667,TCP,1404.0,0.786,56,attack,12,451,Access to restricted port; Repeated failed login attempts,-0.1463917820103986,machine_learning+rule_based,HIGH
+2026-04-02 17:19:00,10.0.0.58,172.16.0.50,3306,UDP,34.0,2.474,0,normal,7,0,Access to restricted port,,rule_based,LOW
+2026-04-02 17:20:00,10.0.1.19,172.16.0.73,3306,TCP,33.0,1.088,0,normal,8,0,Access to restricted port,,rule_based,LOW
+2026-04-02 17:23:00,203.0.113.18,172.16.0.33,21,UDP,843.0,0.585,11,attack,10,292,Access to restricted port; Repeated failed login attempts,-0.13483732784943048,machine_learning+rule_based,HIGH
+2026-04-02 17:26:00,10.0.0.104,172.16.0.78,443,TCP,42.0,2.294,0,normal,13,1,,-0.001303363941769664,machine_learning,LOW
+2026-04-02 17:27:00,203.0.113.22,172.16.0.74,21,TCP,1623.1199999999972,0.985,54,attack,9,398,Access to restricted port; Repeated failed login attempts,-0.12317215521590319,machine_learning+rule_based,HIGH
+2026-04-02 17:28:00,10.0.0.222,172.16.0.75,3306,TCP,28.0,3.834,0,normal,5,0,Access to restricted port,,rule_based,LOW
+2026-04-02 17:34:00,10.0.0.177,172.16.0.52,443,UDP,33.0,5.748,1,normal,11,1,,-0.010250041432272705,machine_learning,LOW
+2026-04-02 17:35:00,203.0.113.34,172.16.0.18,25,UDP,611.0,1.13,11,attack,9,286,Access to restricted port; Repeated failed login attempts,-0.11817638021515531,machine_learning+rule_based,HIGH
